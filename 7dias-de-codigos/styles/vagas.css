@@ -1,0 +1,101 @@
+.vagas
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    padding-top: 8rem;
+    gap: 1rem;
+}
+
+.vagas__span
+{
+    color: var(--marron);
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--fundo-vagas);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.vagas__titulo
+{
+    color: var(--azul-escuro);
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.vagas__texto
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+.vagas__imagem
+{
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.vagas__abertas, .vagas__area
+{
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: bold;
+    color: var(--azul-escuro);
+}
+
+.vagas__box
+{
+    border: 1px solid var(--borda);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    color: var(--azul-escuro);
+}
+
+.vagas__titulo
+{
+    color: var(--azul-escuro);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.vagas__informaçoes
+{
+    display: flex;
+    color: var(--cinza);
+    font-weight: 500;
+    margin-top: 1rem;
+    font-size: 90%;
+    gap: 2rem;
+}
+
+.vagas__box-periodo, .vagas__box-salario
+{
+    color: var(--cinza);
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 850px) 
+{
+    .vagas, .vagas__span
+    {
+        max-width: 70%;
+    }
+    
+    .vagas__box
+    {
+        max-width: 70%;
+    }
+}

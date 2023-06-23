@@ -1,0 +1,75 @@
+nav 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo img
+{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;
+}
+
+.menu,.links a 
+{
+    color: var(--cinza);
+    text-decoration: none;
+    margin-right: 2rem;
+}
+  
+button 
+{
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    background: none;
+}
+  
+button.cadastro
+{
+    background-color: var(--marron);
+    color: var(--branco);
+}
+
+@media screen and (max-width: 850px) 
+{
+    .links 
+    {
+        margin: 2rem 0;
+    }
+    
+      .links a 
+    {
+        margin-right: 0;
+    }
+    
+}
+
+@media screen and (max-width: 670px) 
+{
+    .menu .links, .menu .botao  
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .botao
+    {
+        margin-left: 10px;
+    }
+}

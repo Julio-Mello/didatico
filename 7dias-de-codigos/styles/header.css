@@ -1,0 +1,39 @@
+.cabeçalho
+{
+    padding: 6rem 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;     
+}
+
+.cabeçalho__span
+{
+    
+    color: var(--marron);
+    font-weight: 600;
+}
+ 
+.cabeçalho__titulo
+{
+    color: var(--azul-escuro);
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+}
+
+.cabeçalho__texto
+{
+    font-size: 20px;
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 850px) 
+{
+    .cabeçalho__texto
+    {
+        max-width: 70%;
+    }
+}

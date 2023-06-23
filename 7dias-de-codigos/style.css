@@ -1,0 +1,45 @@
+@import url("styles/navbar.css");
+
+@import url("styles/header.css");
+
+@import url("styles/metricas.css");
+
+@import url("styles/vagas.css");
+
+@import url("styles/depoimentos.css");
+
+@import url("styles/footer.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root
+{
+    --branco: #FFFFFF;
+    --cinza: #667085;
+    --cinza-claro: #98A2B3;
+    --marron: #8E2424;
+    --azul-escuro: #101828;
+    --borda: #EAECF0;
+    --fundo-vagas: #8E24240D;
+    --placeholder: #D0D5DD;
+
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

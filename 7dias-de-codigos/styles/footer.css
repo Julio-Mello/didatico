@@ -1,0 +1,42 @@
+.rodape
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 6rem 1rem;
+  gap: 1.5rem;
+}
+.rodape__titulo
+{
+  color: var(--azul-escuro);
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.rodape__subtitulo
+{
+  font-size: 20px;
+}
+
+footer form 
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer input 
+{
+  outline: none;
+  border: 1px solid var(--placeholder);
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  width: 12rem;
+  margin-right: 1rem;
+}
+
+.rodape__copyright
+{
+  color: var(--cinza-claro);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="assets/howling_wolf.ico" type="image/x-icon">
+            
+    <title>Parallax</title>
+</head>
+<body class="conteudo"> 
+    <header class="cabeçalho">
+        <nav class="cabeçalho__menu">
+            <span class="cabeçalho__menu-box"><img src="assets/lion-logo.png" class="cabeçalho__logo" alt="Logo de um lobo"></span>
+            <a href="index.html" class="cabeçalho__link">Home</a>
+            <a href="cards.html" class="cabeçalho__link">Cards</a>
+            <a href="login.html" class="cabeçalho__link">Login</a>
+        </nav>
+    </header>
+    <form class="container__formulario" action="#">
+
+        <fieldset class="formulario__login">
+            <legend class="formulario__titulo">Login</legend>
+
+            <div class="box__input">
+                <input type="email" required="required" id="email">
+                <label for="email">E-mail</label>
+                               
+            </div>
+
+            <div class="box__input">
+                <input type="password" required="required" id="password" minlength="4" maxlength="6" size="6" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%&])[a-zA-Z0-9!@#$%&].{4,6}" title="A senha será composta de 4 a 6 caracteres e deve conter pelo menos: uma letra maiúscula e minúscula, um número e um dos seguintes caractere especial (!@#$%&)">
+                <label for="password">Senha</label>               
+                <div id="alternar"></div>           
+            </div>     
+
+            <fieldset class="formulario__links">
+                <a href="#">Recuperar senha</a>
+                <a href="#">Inscrever-se</a>
+            </fieldset>
+
+            <input type="submit" value="Enviar" class="botao__enviar">
+            
+        </fieldset>
+
+       </form>
+   
+    </div> 
+       
+    <footer class="rodape">
+        <p class="rodape__texto">
+            <strong>Projeto didático</strong> (aba Home e Login) inspirado  pelo site <a href="https://www.youtube.com/watch?v=1wfeqDyMUx4&t=703s" target="_blank" class="hyperlink">Online Tutorials</a> e aba cards inspirado pelo site <a href="https://www.youtube.com/watch?v=qOO6lVMhmGc&list=WL&index=11&t=528s" target="_blank" class="hyperlink">CodingLab</a>.<br>
+            <strong>Referência bibliográfica :</strong>  <a href="https://www.infoescola.com/astronomia/paralaxe/" target="_blank">InfoEscola</a>, <a href="https://www.significados.com.br/paralaxe/" target="_blank" class="hyperlink">Significados</a>, <a href="https://rockcontent.com/br/blog/efeito-parallax/#:~:text=O%20efeito%20parallax%20tem%20como,os%20objetos%20que%20est%C3%A3o%20pr%C3%B3ximos." target="_blank" class="hyperlink">Rockcontent</a>, <a href="https://www.youtube.com/@serliv/about" target="_blank" class="hyperlink">Serliv</a> e <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/20%20-%20Mini-projeto%20Cordel.pdf" target="_blank" class="hyperlink">GitHub do Guanabara</a>
+         </p>         
+    </footer>
+</body>
+
+<script src="js/senha.js"></script> 
+</html>

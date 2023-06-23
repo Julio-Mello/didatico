@@ -1,0 +1,65 @@
+.rodape__parallax{
+    background-color: var(--cor-primaria);
+    color: var(--cor-font);
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+.rodape__parallax a{
+    color: var(--cor-font);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.rodape__parallax a:hover{
+    text-decoration: underline;
+    color: var(--cor-terciaria);
+}
+
+.rodape__parallax a::after{
+    content: '\00A0\1F517';
+}
+
+.rodape{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    max-height: 50px;
+    width: 100%;
+    background-color: var(--cor-primaria);
+    color: var(--cor-font);
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 5px;
+    z-index: 10;
+}
+
+footer a{
+    font-weight: bolder;
+    color: var(--cor-font);
+    text-decoration: none;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+    color: var(--cor-terciaria);
+}
+
+footer a::after
+{
+    content: '\00A0\1F517';
+}
+
+@media(max-width:991px){
+    .rodape__parallax-texto,
+    .hyperlink, .rodape__texto{
+        font-size: 0.6rem;
+    }
+    .card
+    {
+        margin: 0 0 5%;
+        padding: 20px;
+        height: 320px;
+    }
+}

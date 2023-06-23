@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linka o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    <!--Cria um favicon no site  -->
+    <link rel="shortcut icon" href="imagens/alura-icone.ico" type="image/x-icon">
+
+    <title>Barbearia Alura</title>
+
+</head>
+<body>
+    <header class="cabeçalho" id="cabeçalho">
+        <!--Botão com ícone list-->
+        <button class="btn_icon_cabeçalho" onclick="toggleSidebar()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        <div class="logo">
+            <img src="imagens/logo-alura.png" class="logo_alura" alt="logo alura">
+        </div>
+        <nav class="navegaçao" id="navegaçao">
+            <!--Botão com ícone X (fechar)-->
+            <button class="btn_icon_cabeçalho" onclick="toggleSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <a href="index.html">Home</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main id="conteudo" tabindex="0" onfocus="closeSidebar()">
+        <form class="formulario">
+            <label for="nomecompleto">Nome completo</label>
+            <input type="text" name="nome" id="nome" class="input-padrao" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" class="input-padrao" required placeholder="seu e-mail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx"> 
+
+            <label for="msg">Mensagem</label>
+            <textarea name="msg" id="msg" cols="70" rows="10" class="input-padrao" required></textarea>
+
+            <fieldset class="campo">
+                <legend>Como prefere ser contatado?</legend>
+
+                <label for="radio-email"><input type="radio" name="contato" value="radio-email" id="radio-email"> E-mail</label>
+                <label for="radio-tel"><input type="radio" name="contato" value="radio-tel" id="radio-tel"> Telefone</label>
+                <label for="radio-whats"><input type="radio" name="contato" value="radio-whats" id="radio-whats" checked> WhatsApp</label>
+                
+            </fieldset>
+
+            <fieldset class="campo">
+                <legend>Qual horário deseja ser atendido?</legend>
+                <select name="horario" id="horario">
+                    <option selected disabled value=""> Selecione</option>
+                    <option> Manhã</option>
+                    <option> Tarde</option>
+                    <option> Noite</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" name="contato" id="contato-email" checked> Gostaria de receber nossas novidades por e-mail?</label>
+
+            <input type="submit" value="Enviar" class="enviar">
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h às 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h às 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h às 20h</td>
+                    </tr>
+                </tbody>
+            </table>    
+        </form>     
+        
+    </main>
+    <footer>
+        <img src="imagens/logo-branco.png" alt="logo da barbearia alura">
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p><br>
+        <p class="rede-social">
+            <a href="https://github.com/Julio-Mello" target="_blank" class="externo">Júlio Mello</a> 
+            <img class="github" src="imagens/github-mark.png" alt="logo-github">   
+        </p>               
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

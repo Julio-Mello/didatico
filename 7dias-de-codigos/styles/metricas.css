@@ -1,0 +1,66 @@
+.metricas
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    padding: 0 8rem;
+}
+
+.metricas__box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.metricas__numero
+{
+    color: var(--marron);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.metricas__titulo
+{
+    color: var(--azul-escuro);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.metricas__texto
+{
+    color: var(--cinza);
+    line-height: 140%;
+    font-size: 90%;
+}
+
+@media screen and (max-width: 920px) 
+{
+    .metricas 
+    {
+      padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 850px) 
+{
+    .metricas 
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .metricas__box 
+    {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+  
+    .metricas__texto 
+    {
+      max-width: 280px;
+      text-align: center;
+    }
+}
