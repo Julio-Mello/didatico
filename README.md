@@ -15,7 +15,7 @@ Desafio da aula 30 do módulo 2 de **HTML5** e **CSS3** proposto pelo prof. Guan
 
 Veja como ficou 👇🏻
 
-https://julio-mello.github.io/didaticos/android-cev/
+https://julio-mello.github.io/didatico/android-cev/
 ___
 Desafio da **Formação Iniciante em Programação** curso HTML5 e CSS3 parte 1 a 4 da [Alura](https://www.alura.com.br/). 
 
@@ -34,7 +34,7 @@ A propopsta era desenvolver um site de uma barbearia com 3 "abas" (home, produto
 
 Veja como ficou 👇🏻
 
-https://julio-mello.github.io/didaticos/barbearia-alura/
+https://julio-mello.github.io/didatico/barbearia-alura/
 ___
 Site desenvolvido baseado nos templates do [Online Tutorials](https://www.youtube.com/watch?v=1wfeqDyMUx4&list=PL9r7593_w4itixZhIIM4sMohURqNq3ZNr&index=2&t=705s) criado por Muhammad Irshad e no template da [CodingLab](https://www.youtube.com/watch?v=qOO6lVMhmGc&list=WL&index=11&t=531s) concebido pelo Prem Shahi.
 
@@ -50,13 +50,13 @@ Reuni 3 conteúdos (efeito parallax, efeito slide card e tela de login) que me i
 
 Veja como ficou 👇🏻
 
-https://julio-mello.github.io/didaticos/parallax/index.html
+https://julio-mello.github.io/didatico/parallax/index.html
 ___
 Desafio do curso HTML e CSS: responsividade com mobile-first da [Alura](https://www.alura.com.br/). A proposta consiste em criar um website da AluraBooks.
 
 Veja como ficou 👇🏻
 
-https://julio-mello.github.io/didaticos/alurabooks/index.html
+https://julio-mello.github.io/didatico/alurabooks/index.html
 
 ___
 Desafio do curso HTML e CSS: responsividade com mobile-first da [Alura](https://www.alura.com.br/).
@@ -64,4 +64,4 @@ A proposta consiste em criar uma página web, seguindo um modelo de layout no Fi
 
 Veja como ficou 👇🏻
 
-https://julio-mello.github.io/didaticos/alurabooks/index.html
+https://julio-mello.github.io/didatico/7dias-de-codigos/
