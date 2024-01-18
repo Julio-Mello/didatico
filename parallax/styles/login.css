@@ -72,13 +72,13 @@
     width: 30px;
     height: 30px;
     color: var(--cor-font);
-    background: url(/assets/eye.ico);
+    background: url(/parallax/assets/eye.ico);
     background-size: cover;
     cursor: pointer;
 }
 
 #alternar.hide{
-    background: url(/assets/eye-off.ico);
+    background: url(/parallax/assets/eye-off.ico);
     background-size: cover;
 }
 
