@@ -46,7 +46,8 @@ Reuni 3 conteúdos (efeito parallax, efeito slide card e tela de login) que me i
 * texto explicando o que é o efeito parallax;
 * cards personalizados dos zodíacos;
 * site responsivo;
-* alteração nas tags (com objetivo de tornar mais semântico) do HTML5 e CSS3. 
+* alteração nas tags (com objetivo de tornar mais semântico) do HTML5 e CSS3;
+* uso de Regex no HTML e com Javascript para configurar o password.
 
 Veja como ficou 👇🏻
 
