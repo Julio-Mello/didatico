@@ -15,7 +15,8 @@ Desafio da aula 30 do módulo 2 de **HTML5** e **CSS3** proposto pelo prof. Guan
 
 Veja como ficou 👇🏻
 
-https://julio-mello.github.io/didatico/android-cev/
+<a href="https://julio-mello.github.io/didatico/android-cev/" target="_blank" rel="noopener noreferrer nofollow">Projeto Android</a>
+
 ___
 Desafio da **Formação Iniciante em Programação** curso HTML5 e CSS3 parte 1 a 4 da [Alura](https://www.alura.com.br/). 
 
@@ -34,7 +35,8 @@ A propopsta era desenvolver um site de uma barbearia com 3 "abas" (home, produto
 
 Veja como ficou 👇🏻
 
-https://julio-mello.github.io/didatico/barbearia-alura/
+<a href="https://julio-mello.github.io/didatico/barbearia-alura/" target="_blank" rel="noopener noreferrer nofollow">Barbearia Alura</a>
+
 ___
 Site desenvolvido baseado nos templates do [Online Tutorials](https://www.youtube.com/watch?v=1wfeqDyMUx4&list=PL9r7593_w4itixZhIIM4sMohURqNq3ZNr&index=2&t=705s) criado por Muhammad Irshad e no template da [CodingLab](https://www.youtube.com/watch?v=qOO6lVMhmGc&list=WL&index=11&t=531s) concebido pelo Prem Shahi.
 
@@ -51,13 +53,15 @@ Reuni 3 conteúdos (efeito parallax, efeito slide card e tela de login) que me i
 
 Veja como ficou 👇🏻
 
-https://julio-mello.github.io/didatico/parallax/index.html
+<a href="https://julio-mello.github.io/didatico/parallax/index.html" target="_blank" rel="noopener noreferrer nofollow">Parallax</a>
+
 ___
 Desafio do curso HTML e CSS: responsividade com mobile-first da [Alura](https://www.alura.com.br/). A proposta consiste em criar um website da AluraBooks.
 
 Veja como ficou 👇🏻
 
-https://julio-mello.github.io/didatico/alurabooks/index.html
+<a href="https://julio-mello.github.io/didatico/alurabooks/index.html" target="_blank" rel="noopener noreferrer nofollow">Alura Books</a>
+
 
 ___
 Desafio do curso HTML e CSS: responsividade com mobile-first da [Alura](https://www.alura.com.br/).
@@ -65,4 +69,4 @@ A proposta consiste em criar uma página web, seguindo um modelo de layout no Fi
 
 Veja como ficou 👇🏻
 
-https://julio-mello.github.io/didatico/7dias-de-codigos/
+<a href="https://julio-mello.github.io/didatico/7dias-de-codigos/" target="_blank" rel="noopener noreferrer nofollow">7 dias de código</a>
